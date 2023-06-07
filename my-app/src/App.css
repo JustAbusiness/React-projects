@@ -1,0 +1,37 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+body {
+  min-height: 200vh;
+}
+
+.fullName {
+  font-size: 20px;
+
+}
+
+.feature {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 20px;
+  margin-bottom: 250px;
+  width: 80%;
+}
+
+.feature-img {
+  object-fit: cover;
+}
